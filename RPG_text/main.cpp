@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "VictoryContribution.h" // Include the characters header file
+#include "VictoryContribution.h" 
 #include "allies.h"
 #include "ennemies.h"
 #include "My_Army.hpp"
@@ -35,16 +35,16 @@ int main() {
     general_2.setExperience(80);
 
     characters general_3;
-    general_3.setName("Darmun"); // Corrected variable name
+    general_3.setName("Darmun"); 
     general_3.setSkills(85);
-    general_3.setAgility(95); // Corrected variable name
+    general_3.setAgility(95); 
     general_3.setStrength(95);
     general_3.setSpeed(97);
     general_3.setHealth_Endurance_Stamina(98);
     general_3.setExperience(94);
 
     characters general_4;
-    general_4.setName("Madrun"); // Corrected variable name
+    general_4.setName("Madrun"); 
     general_4.setSkills(90);
     general_4.setAgility(80);
     general_4.setStrength(76);
@@ -53,7 +53,7 @@ int main() {
     general_4.setExperience(83);
 
     characters general_5;
-    general_5.setName("Salmandra"); // Corrected variable name
+    general_5.setName("Salmandra"); 
     general_5.setSkills(86);
     general_5.setAgility(95);
     general_5.setStrength(78);
